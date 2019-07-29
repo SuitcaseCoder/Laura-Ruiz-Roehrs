@@ -1,7 +1,9 @@
 body{
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: #2E3047;
+    /* background-color: #2E3047; */
+    background: rgb(67,69,92);
+background: radial-gradient(circle, rgba(67,69,92,1) 0%, rgba(46,48,71,1) 47%, rgba(67,69,92,1) 77%);
   }
   
   /* NAVBAR */
@@ -169,6 +171,36 @@ a{
 footer{
  margin: 35px 0 0 0;
 }
+
+.contact-me{
+    min-height: 150px;
+    max-width: 45em;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+.contact-me-title{
+    font-size: 30px;
+    color: #3BBA9C;
+    font-family: "open Sans";
+}
+
+.contact-me-text{
+    font-size: 18px;
+}
+
+.contact-me-ul>li{
+    list-style-type: none;
+}
+
+.contact-me-links{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.
 
   /* media queries */
 
