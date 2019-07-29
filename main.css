@@ -148,9 +148,23 @@ a{
 
 footer{
  margin: 35px 0 0 0;
+ min-height: 75px;
+ background-color: white;
 }
 
 /* CONTACT */
+
+#contact-me-title{
+    color: #3BBA9C;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+/* 
+#social-media-container{
+    min-height: 45px;
+    background-color: white;
+} */
 
 .contact {
     display: flex;
