@@ -1,18 +1,16 @@
 body{
     box-sizing: border-box;
     margin: 0 auto;
-    /* background-color: #2E3047; */
     background: rgb(67,69,92);
-background: radial-gradient(circle, rgba(67,69,92,1) 0%, rgba(46,48,71,1) 47%, rgba(67,69,92,1) 77%);
-  }
+    background: radial-gradient(circle, rgba(67,69,92,1) 0%, rgba(46,48,71,1) 47%, rgba(67,69,92,1) 77%);
+}
   
-  /* NAVBAR */
+/* NAVBAR */
   
-nav{
+nav {
 background-color: #3C3F58;
 color: white;
 margin: 0;
-
 }
 
 nav>ul {
@@ -21,30 +19,33 @@ nav>ul {
     padding: 5px;
 }
 
-nav>ul>li{
+nav>ul>li {
     color: white;
     display: inline;
     padding: 5px 10px;
     text-align: right;
 }
 
-nav>ul>li>a{
+nav>ul>li>a {
     color: white;
     list-style: none;
     text-decoration: none;
     font-family: "lora";
 }
 
-nav>ul>li>a:hover{
+nav>ul>li>a:hover {
 color: #3BBA9C;
 }
 
-/* flexbox */
+
+/* MAIN */
 
 .main {
 display: flex;
 flex-direction: column;
 }
+
+/* ABOUT */
 
 .about {
 display: flex;
@@ -58,23 +59,17 @@ margin: auto;
 padding: 20px 10px;
 }
 
-
-.contact {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-min-height: 25px;;
-margin: 5px 0;
+.about-me {
+    /* flex-grow: 1; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    }
+    
+span {
+    font-weight: bold;
 }
 
-.contact-item{
-border: 1px dotted white;
-flex-grow: 1;
-text-align: center;
-max-width: 100%;
-background-color:white;
-}
+/* PROJECTS */
 
 .projects {
 display: flex;
@@ -98,11 +93,11 @@ flex-direction: column;
 justify-content: space-evenly;
 background-color: rgba(112,119,147,0.6);
 margin: 10px;
+border-radius: 3px;
 }
 
 .project-img{
 max-width: 100%;
-/* opacity: 0.4; */
 }
 
 .project-title{
@@ -133,28 +128,9 @@ font-size: 60px;
 margin-bottom: 0;
 }
 
-.about-me {
-/* flex-grow: 1; */
-font-size: 20px;
-letter-spacing: 1px;
-}
-
-span {
-    font-weight: bold;
-}
-
-/* #about-me-text{
-    max-width: 35%;
-} */
-
 p{
 font-family: "lora";
 color: white;
-}
-
-.contact{
-color: white;
-font-family: "open Sans";
 }
 
 
@@ -168,41 +144,37 @@ a{
     color: #3BBA9C;
 }
 
+/* FOOTER */
+
 footer{
  margin: 35px 0 0 0;
 }
 
-.contact-me{
-    min-height: 150px;
-    max-width: 45em;
-    margin: auto;
-    padding: 20px 10px;
+/* CONTACT */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 25px;;
+    margin: 5px 0;
+}
+    
+.contact-item {
+    border: 1px dotted white;
+    flex-grow: 1;
+    text-align: center;
+    max-width: 100%;
+    background-color:white;
 }
 
-.contact-me-title{
-    font-size: 30px;
-    color: #3BBA9C;
+.contact {
+    color: white;
     font-family: "open Sans";
 }
 
-.contact-me-text{
-    font-size: 18px;
-}
-
-.contact-me-ul>li{
-    list-style-type: none;
-}
-
-.contact-me-links{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    list-style-type: none;
-}
-
-.
-
-  /* media queries */
+  /* MEDIA QUERIES */
 
 @media (max-width: 414px) {
      .about, .projects {
