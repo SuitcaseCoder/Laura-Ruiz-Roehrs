@@ -25,8 +25,14 @@ body{
     padding: 5px 10px;
     text-align: right;
   }
+
+  nav>ul>li>a{
+      color: white;
+      list-style: none;
+      text-decoration: none;
+  }
   
-  nav>ul>li:hover{
+  nav>ul>li>a:hover{
     color: #3BBA9C;
   }
   
@@ -93,8 +99,25 @@ body{
     /* opacity: 0.4; */
 }
 
+.project-title{
+    min-height: 4%;
+
+}
+
 .project-description {
-    min-height: 25px;
+    min-height: 20%;
+    font-size: 17px;
+}
+.project-tech{
+    min-height: 7%;
+}
+
+.project-link-div{
+ min-height: 4%;
+}
+
+.project-link{
+    padding: 0 3px;
 }
 
   .title{
