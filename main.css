@@ -1,0 +1,156 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #2E3047;
+  }
+  
+  /* NAVBAR */
+  
+  nav{
+    background-color: #3C3F58;
+    color: white;
+    margin: 0;
+    
+  }
+
+  nav>ul {
+      margin: 0;
+      text-align: right;
+      padding: 5px;
+  }
+  
+  nav>ul>li{
+    color: white;
+    display: inline;
+    padding: 5px 10px;
+    text-align: right;
+  }
+  
+  nav>ul>li:hover{
+    color: #3BBA9C;
+  }
+  
+  /* flexbox */
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    /* change flex-wrap depending on picture */
+    flex-wrap: wrap;
+    max-width: 45em;
+    justify-content: center;
+    min-height: 200px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 25px;;
+    margin: 5px 0;
+  }
+
+  .contact-item{
+    border: 1px dotted white;
+    flex-grow: 1;
+    text-align: center;
+    max-width: 100%;
+    background-color:white;
+  }
+  
+  .projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height: 200px;
+    margin: 10px 0;
+  }
+
+  .project-item{
+    border: 1px dotted white;
+    flex-grow: 1;
+    max-width: 390px;
+    padding: 4px;
+  }
+  
+  .project-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-img{
+    max-width: 100%;
+    /* opacity: 0.4; */
+}
+
+  .title{
+    font-family: "open Sans";
+    color: #3BBA9C;
+    flex-grow: 2;
+    font-size: 60px;
+  }
+
+  .about-me {
+    flex-grow: 1;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  span {
+      font-weight: bold;
+  }
+
+  /* #about-me-text{
+      max-width: 35%;
+  } */
+  
+  p{
+    font-family: "lora";
+    color: white;
+  }
+  
+  .contact{
+    color: white;
+    font-family: "open Sans";
+  }
+
+  
+  .projects{
+    color: white;
+    font-family: "open Sans";
+
+  }
+
+  a{
+      color: #3BBA9C;
+  }
+
+  /* media queries */
+
+@media (max-width: 414px) {
+     .about, .projects {
+        flex-direction: column;
+    }
+
+    .about {
+        min-height: 100px;
+    }
+    .contact {
+        min-height: 25px;
+    }
+    .projects {
+        min-height: 200px;
+    }
+
+    
+}
