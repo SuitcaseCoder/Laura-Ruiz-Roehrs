@@ -52,7 +52,7 @@ body{
     justify-content: center;
     min-height: 200px;
     margin: auto;
-    padding: 10px;
+    padding: 20px 10px;
   }
 
   
@@ -102,7 +102,6 @@ body{
 
 .project-title{
     min-height: 4%;
-
 }
 
 .project-description {
@@ -126,6 +125,7 @@ body{
     color: #3BBA9C;
     flex-grow: 2;
     font-size: 60px;
+    margin-bottom: 0;
   }
 
   .about-me {
