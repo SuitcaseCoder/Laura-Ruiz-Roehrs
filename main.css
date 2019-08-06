@@ -86,8 +86,8 @@ margin: 75px 0;
 .project-item{
 border: 1px dotted white;
 flex-grow: 1;
-max-width: 350px;
-padding: 8px;
+max-width: 345px;
+padding: 25px;
 }
 
 .project-container{
@@ -200,13 +200,16 @@ footer{
 
     .about {
         min-height: 100px;
+        margin: 25px;
     }
     .contact {
         min-height: 25px;
     }
     .projects {
         min-height: 200px;
+        margin: 25px;
     }
+
 
     
 }
