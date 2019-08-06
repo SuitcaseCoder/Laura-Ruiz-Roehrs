@@ -11,6 +11,7 @@ nav {
 background-color: #3C3F58;
 color: white;
 margin: 0;
+/* position: fixed; */
 }
 
 nav>ul {
@@ -30,7 +31,9 @@ nav>ul>li>a {
     color: white;
     list-style: none;
     text-decoration: none;
-    font-family: "lora";
+    font-family: "muli";
+    font-size: 18px;
+    padding: 5px;
 }
 
 nav>ul>li>a:hover {
@@ -83,7 +86,7 @@ margin: 75px 0;
 .project-item{
 border: 1px dotted white;
 flex-grow: 1;
-max-width: 375px;
+max-width: 350px;
 padding: 8px;
 }
 
@@ -129,7 +132,7 @@ margin-bottom: 0;
 }
 
 p{
-font-family: "lora";
+font-family: "muli";
 color: white;
 }
 
